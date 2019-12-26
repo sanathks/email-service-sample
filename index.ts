@@ -1,3 +1,3 @@
-import app from './app';
+import app from './app'
 
-app.listen(2010);
+app.listen(2010)

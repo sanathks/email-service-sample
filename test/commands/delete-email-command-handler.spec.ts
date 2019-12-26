@@ -1,9 +1,9 @@
 import { expect } from 'chai'
 import 'mocha'
 import 'reflect-metadata'
-import { DeleteEmailCommandHandler } from '../../src/commands/handlers/delete-email-command-handler'
+import { DeleteEmailCommandHandler } from '../../src/episode/commands/handlers/delete-email-command-handler'
 import * as sinon from 'ts-sinon'
-import { IEmailRepository } from '../../src/repositories/email-repository-interface'
+import { IEmailRepository } from '../../src/episode/repositories/email-repository-interface'
 
 const stubInterface = sinon.stubInterface
 

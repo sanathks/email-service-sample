@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express'
-import { container } from '../config/container'
+import { container } from '../../../config/container'
 import FindEmailByIdQueryHandler from '../queries/handlers/find-email-byId-query-handler'
 import EmailNotFoundError from '../errors/email-not-found-error'
 

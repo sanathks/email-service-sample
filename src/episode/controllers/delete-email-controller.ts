@@ -1,5 +1,5 @@
 import { Request, Response, NextFunction } from 'express'
-import { container } from '../config/container'
+import { container } from '../../../config/container'
 import { DeleteEmailCommandHandler } from '../commands/handlers/delete-email-command-handler'
 
 const deleteEmailCommandHandler: DeleteEmailCommandHandler = container.get(DeleteEmailCommandHandler)

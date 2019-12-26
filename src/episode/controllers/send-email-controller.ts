@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
-import errorMessageBuilder from '../helpers/error-message-builder'
+import errorMessageBuilder from '../../../helpers/error-message-builder'
 import { SendEmailCommandHandler } from '../commands/handlers/send-email-command-handler'
-import { container } from '../config/container'
+import { container } from '../../../config/container'
 
 const sendEmailCommandHandler: SendEmailCommandHandler = container.get(SendEmailCommandHandler)
 
